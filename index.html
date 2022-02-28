@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <title>Coding Quiz Challenge</title>
+
+  </head>
+  <body>
+    <header>
+        <nav class = "navbar">
+            <a class ="navbar-brand" href="highscore.html">High Scores</a>
+            <section class ="timer" id="restart">
+                Time: 75 Seconds
+            </section>
+        </nav>
+    </header>
+
+    <main>
+        <section id="start" class="quiz-section">
+            <h1>Coding Quiz Challenge</h1>
+            <p class ="card-content">
+                Try to answer the following code-related question within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!
+            </p>
+            <button id="start-button">Start Quiz</button>
+        </section>
+        <section id ="questions" class="hide quiz-section">
+            <p id="timer">Time: <span id="time-remaining">0</span></p>
+            <h1 id="question">Question</h1>
+            <u1 id="choices"></u1>
+        </section>
+        <section id="finish" class="quiz-section hide">
+            <h1 id="finish-header">Quiz Complete</h1>
+            <p id="score-display">You Scored:<span id="score">0</span></p>
+            <form id="submit-form">
+                <label for="init">Enter your Initials: </label>
+                <input type="text" id="init">
+            <button type="submit">Submit Your Score</button>
+                <p id="error"></p>
+            </form>
+            <a href="index.html" class="return-button"></i>Back to quiz</a>
+        </section>
+        <div>
+            <p id="correct" class="choice-status hidden"></i>Correct!</p>
+            <p id="wrong" class="choice-status hidden"></i>Wrong!</p>
+        </div>
+    </main>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/highscore.js"></script>
+  </body>
+</html>
