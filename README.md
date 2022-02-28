@@ -6,6 +6,6 @@ The quiz has 5 questions and 75 seconds. The final score is how many seconds the
 
 I used html, css, and js files to create this.
 
-![quiz pic](application-screenshot.png)
+![quiz pic](/assets/images/application-screenshot.png)
 
 Deployed Application Link: https://nitishd22.github.io/challenge-04/
