@@ -1,4 +1,4 @@
-## Challenge 4: JavaScript Code Quiz
+## JavaScript Code Quiz
 
 The objective of this challenge is to create a timed quiz that is scored based off speed and accuracy. The score should be able to be saved to a leaderboard page.
 
